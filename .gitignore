@@ -1,21 +1,17 @@
-*.DS_STORE
 *.class
-*~
-*.lic
-*#
-*.#*
-.idea/
-lib_managed/
-fetch.iml
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
 target/
-project/project.iml
-project/plugins/src_managed/
+lib_managed/
+src_managed/
 project/boot/
-project/plugins/target/
 project/plugins/project/
-project/plugins/lib_managed/
-project/build/target/
-out/
-logs/
-fetchResults/
-.ensime
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
