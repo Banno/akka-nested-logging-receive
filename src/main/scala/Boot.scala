@@ -25,4 +25,6 @@ object Boot extends App {
     Thread.sleep(1000)
     ref ! End()
   }
+
+  Thread.sleep(10000)
 }
